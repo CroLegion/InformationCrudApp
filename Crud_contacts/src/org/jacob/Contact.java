@@ -6,11 +6,10 @@ public class Contact {
 	String phone;
 	String address;
 	
-	
-	public Contact(String name) {
+	public void Contact(String name) {
 		this.name = name;
 	}
-	public Contact(String name, String phone) {
+	public void Contact(String name, String phone) {
 		this.name = name;
 		this.phone = phone;
 	}
@@ -19,5 +18,11 @@ public class Contact {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 }
