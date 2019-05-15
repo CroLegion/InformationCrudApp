@@ -13,6 +13,12 @@ public class Contact {
 		this.name = name;
 		this.phone = phone;
 	}
+	public void init() {
+		System.out.println("Starting the contacts list.");
+	}
+	public void destroy() {
+		System.out.println("Shutting down the app.");
+	}
 	public String getAddress() {
 		return address;
 	}
